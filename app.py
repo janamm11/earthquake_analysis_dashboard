@@ -110,9 +110,9 @@ if app_mode == "Overview & KPIs":
     st.pyplot(fig_regional)
     # ======================================================================
    # ======================================================================
-    # 📊 NEW CHART: DISTRICTS PER SEVERITY CATEGORY (Stacked Directly Below)
+    #  NEW CHART: DISTRICTS PER SEVERITY CATEGORY (Stacked Directly Below)
     # ======================================================================
-    st.subheader("📊 National District Severity Summary")
+    st.subheader(" National District Severity Summary")
     st.markdown("This chart counts the number of individual districts across Nepal assigned to each severity level, calculated by taking the most common (mode) severity category reported across all local units inside that district.")
 
         # 1. Clean data aggregation (1 row per district using mode)
